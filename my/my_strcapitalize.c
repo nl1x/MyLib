@@ -3,6 +3,7 @@
 ** C-POOL
 ** File description:
 ** my_strcapitalize.c
+** Author: nathan.jeannot@epitech.eu
 */
 
 #include "my.h"

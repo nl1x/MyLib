@@ -3,6 +3,7 @@
 ** C-POOL
 ** File description:
 ** my.h.c
+** Author: nathan.jeannot@epitech.eu
 */
 
 

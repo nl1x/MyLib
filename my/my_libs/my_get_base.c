@@ -3,6 +3,7 @@
 ** myprintf
 ** File description:
 ** my_get_base.c
+** Author: nathan.jeannot@epitech.eu
 */
 
 #include <stdlib.h>

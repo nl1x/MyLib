@@ -3,6 +3,7 @@
 ** C-POOL
 ** File description:
 ** my_find_prime_sup.c
+** Author: nathan.jeannot@epitech.eu
 */
 
 #include "my.h"

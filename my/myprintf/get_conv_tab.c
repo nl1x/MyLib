@@ -3,6 +3,7 @@
 ** get conv tab
 ** File description:
 ** tab the sort the format
+** Author: nathan.jeannot@epitech.eu
 */
 
 #include "../my.h"

@@ -3,6 +3,7 @@
 ** C-POOL
 ** File description:
 ** my_strstr.c
+** Author: nathan.jeannot@epitech.eu
 */
 
 #include <stddef.h>

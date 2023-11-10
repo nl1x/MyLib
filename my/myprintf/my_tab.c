@@ -1,8 +1,9 @@
 /*
 ** EPITECH PROJECT, 2023
-** __
+** myprintf
 ** File description:
-** _
+** my_tab.c
+** Author: nathan.jeannot@epitech.eu
 */
 
 #include <stdlib.h>

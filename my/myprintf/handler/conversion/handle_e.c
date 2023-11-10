@@ -3,7 +3,9 @@
 ** handle_e
 ** File description:
 ** check your malloc!
+** Author: nathan.jeannot@epitech.eu
 */
+
 #include "../../../my.h"
 #include <stdarg.h>
 #include <stdio.h>

@@ -3,6 +3,7 @@
 ** MyLib
 ** File description:
 ** my_putchar.c
+** Author: nathan.jeannot@epitech.eu
 */
 
 #include <unistd.h>

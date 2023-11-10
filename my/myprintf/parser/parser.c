@@ -3,6 +3,7 @@
 ** parser/parser
 ** File description:
 ** check_tab + fill parser
+** Author: nathan.jeannot@epitech.eu
 */
 
 #include "../my_parser.h"

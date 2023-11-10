@@ -3,6 +3,7 @@
 ** myprintf
 ** File description:
 ** handle_flag_minus_o.c
+** Author: nathan.jeannot@epitech.eu
 */
 
 #include "../../../my.h"

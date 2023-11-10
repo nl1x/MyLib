@@ -3,6 +3,7 @@
 ** C-POOL
 ** File description:
 ** my_strlen.c
+** Author: nathan.jeannot@epitech.eu
 */
 
 int my_strlen(char const *str)

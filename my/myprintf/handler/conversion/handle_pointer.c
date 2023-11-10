@@ -3,6 +3,7 @@
 ** myprintf
 ** File description:
 ** handle_pointer.c
+** Author: nathan.jeannot@epitech.eu
 */
 
 #include "../../../my.h"

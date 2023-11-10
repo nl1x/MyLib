@@ -3,6 +3,7 @@
 ** myprintf
 ** File description:
 ** handle_int.c
+** Author: nathan.jeannot@epitech.eu
 */
 
 #include <stdarg.h>

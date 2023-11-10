@@ -5,8 +5,28 @@
 ** my.h.c
 */
 
+
+#ifndef MY_LNKLST
+    #define MY_LNKLST
+
+typedef struct linked_list {
+    void *data;
+    struct linked_list *next;
+    struct linked_list *prev;
+} lnklst_t;
+
+void my_lnk_add(lnklst_t *list, void *data);
+int my_lnk_remove(lnklst_t **list, void *data);
+lnklst_t *my_lnk_new(void *data);
+lnklst_t *lnk_next(lnklst_t *list);
+int lnk_has_next(lnklst_t *list);
+
+#endif
+
 #ifndef MY_LIB
     #define MY_LIB
+
+int my_strstarts(char *str, char *start);
 
 int count_occurences(char *str, char *substr);
 char **split(char *str, char *separator);
@@ -29,6 +49,7 @@ void char_to_lowercase(char *c);
 void my_swapchar(char *a, char *b);
 
 int my_printf(char *format, ...);
+int my_puterr(char *err);
 int my_put_double(double nb, int precision);
 int my_putchar(char c);
 int my_put_nbr(int nb);

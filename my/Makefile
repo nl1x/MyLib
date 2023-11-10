@@ -16,6 +16,7 @@ WIDTH_FOLDER = $(HANDLER_FOLDER)/width/
 FLAG_FOLDER = $(HANDLER_FOLDER)/flags/
 # LENGTH_MOD_FOLDER = $(HANDLER_FOLDER)/length_modifier/
 MYLIB_FOLDER = my_libs/
+MY_LNKLST_FOLDER = my_linked_list
 
 LIB_FOLDER = .
 LIB_NAME = libmy
@@ -27,9 +28,11 @@ LIB_SRC += $(LIB_FOLDER)/my_showstr.c
 LIB_SRC += $(LIB_FOLDER)/my_str_isalpha.c
 LIB_SRC += $(LIB_FOLDER)/my_str_islower.c
 LIB_SRC += $(LIB_FOLDER)/my_compute_square_root.c
+LIB_SRC += $(LIB_FOLDER)/my_strstarts.c
 LIB_SRC += $(LIB_FOLDER)/my_strncmp.c
 LIB_SRC += $(LIB_FOLDER)/my_strcat.c
 LIB_SRC += $(LIB_FOLDER)/my_putchar.c
+LIB_SRC += $(LIB_FOLDER)/my_puterr.c
 LIB_SRC += $(LIB_FOLDER)/my_strstr.c
 LIB_SRC += $(LIB_FOLDER)/my_str_to_word_array.c
 LIB_SRC += $(LIB_FOLDER)/my_compute_power_rec.c
@@ -107,6 +110,8 @@ LIB_SRC += $(MYLIB_FOLDER)/my_get_base.c
 LIB_SRC += $(MYLIB_FOLDER)/my_islib.c
 LIB_SRC += $(MYLIB_FOLDER)/my_mathlib.c
 LIB_SRC += $(MYLIB_FOLDER)/utils.c
+LIB_SRC += $(MY_LNKLST_FOLDER)/my_linked_list.c
+
 
 LIB_OBJ	= $(LIB_SRC:.c=.o)
 

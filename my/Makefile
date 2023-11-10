@@ -14,7 +14,6 @@ CONVERSION_FOLDER = $(HANDLER_FOLDER)conversion/
 PRECISION_FOLDER = $(HANDLER_FOLDER)precision/
 WIDTH_FOLDER = $(HANDLER_FOLDER)/width/
 FLAG_FOLDER = $(HANDLER_FOLDER)/flags/
-# LENGTH_MOD_FOLDER = $(HANDLER_FOLDER)/length_modifier/
 MYLIB_FOLDER = my_libs/
 MY_LNKLST_FOLDER = my_linked_list
 
@@ -97,14 +96,6 @@ LIB_SRC += $(FLAG_FOLDER)/handle_flag_minus_c.c
 LIB_SRC += $(FLAG_FOLDER)/handle_flag_minus_f.c
 LIB_SRC += $(FLAG_FOLDER)/handle_flag_minus_x.c
 LIB_SRC += $(FLAG_FOLDER)/handle_flag_minus_o.c
-# LIB_SRC += $(LENGTH_MOD_FOLDER)/handle_length_mod.c
-# LIB_SRC += $(LENGTH_MOD_FOLDER)/handle_length_mod_hh.c
-# LIB_SRC += $(LENGTH_MOD_FOLDER)/handle_length_mod_h.c
-# LIB_SRC += $(LENGTH_MOD_FOLDER)/handle_length_mod_ll.c
-# LIB_SRC += $(LENGTH_MOD_FOLDER)/handle_length_mod_l.c
-# LIB_SRC += $(LENGTH_MOD_FOLDER)/handle_length_mod_t.c
-# LIB_SRC += $(LENGTH_MOD_FOLDER)/handle_length_mod_j.c
-# LIB_SRC += $(LENGTH_MOD_FOLDER)/handle_length_mod_z.c
 LIB_SRC += $(MYLIB_FOLDER)/my_charlib.c
 LIB_SRC += $(MYLIB_FOLDER)/my_get_base.c
 LIB_SRC += $(MYLIB_FOLDER)/my_islib.c
@@ -146,7 +137,7 @@ clean:
 .PHONY:clean
 
 fclean: clean
-	$(RM) -f $(LIB_NAME)
+	$(RM) $(LIB_DEST)
 .PHONY:fclean
 
 re: fclean all

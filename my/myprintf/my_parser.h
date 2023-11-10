@@ -95,14 +95,14 @@ int handle_flag_minus_x(parser_t *parser, flag_arguments_t *flag_args);
 int handle_flag_minus_c(parser_t *parser, flag_arguments_t *flag_args);
 int handle_flag_minus_o(parser_t *parser, flag_arguments_t *flag_args);
 
-int handle_length_mod(parser_t *parser, long long arg);
-int handle_length_mod_hh(long long arg);
-int handle_length_mod_h(long long arg);
-int handle_length_mod_ll(long long arg);
-int handle_length_mod_l(long long arg);
-int handle_length_mod_t(long long arg);
-int handle_length_mod_j(long long arg);
-int handle_length_mod_z(long long arg);
+//int handle_length_mod(parser_t *parser, long long arg);
+//int handle_length_mod_hh(long long arg);
+//int handle_length_mod_h(long long arg);
+//int handle_length_mod_ll(long long arg);
+//int handle_length_mod_l(long long arg);
+//int handle_length_mod_t(long long arg);
+//int handle_length_mod_j(long long arg);
+//int handle_length_mod_z(long long arg);
 
 int is_conversion(char to_check);
 
@@ -175,19 +175,8 @@ static const handler_flags_t FUNC_HANDLER_FLAGS[] = {
     {'o', &handle_flag_minus_o},
     {'f', &handle_flag_minus_f},
     {'F', &handle_flag_minus_f},
-    // {'e', &handle_flag_minus_d},
+    {'e', &handle_flag_minus_d},
     {'\0', NULL}
-};
-
-static const handler_length_mod_t FUNC_HANDLER_LENGTH_MOD[] = {
-    {'h', 'h', &handle_length_mod_hh},
-    {'h', '\0', &handle_length_mod_h},
-    {'l', 'l', &handle_length_mod_ll},
-    {'l', '\0', &handle_length_mod_l},
-    {'t', '\0', &handle_length_mod_t},
-    {'j', '\0', &handle_length_mod_j},
-    {'z', '\0', &handle_length_mod_z},
-    {'\0', '\0', NULL}
 };
 
 #endif

@@ -25,11 +25,11 @@ int handle_flag_minus_d(parser_t *parser, flag_arguments_t *flag_args)
     if (contains(parser->flags, '-')) {
         replace(flag_args->width, ' ');
         size += my_putstr(flag_args->precision);
-        size += handle_length_mod(parser, flag_args->arg_int);
+        my_put_nbr(flag_args->arg_int);
         size += my_putstr(flag_args->width);
     } else {
         size += my_putstr(flag_args->width) + my_putstr(flag_args->precision);
-        size += handle_length_mod(parser, flag_args->arg_int);
+        my_put_nbr(flag_args->arg_int);
     }
     return size;
 }

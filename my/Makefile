@@ -20,7 +20,7 @@ MYLIB_FOLDER = my_libs/
 LIB_FOLDER = .
 LIB_NAME = libmy
 LIB = $(LIB_NAME).a
-LIB_DEST = ../../$(LIB)
+LIB_DEST = ../$(LIB)
 
 LIB_SRC  = $(LIB_FOLDER)/my_str_isprintable.c
 LIB_SRC += $(LIB_FOLDER)/my_showstr.c

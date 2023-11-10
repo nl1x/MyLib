@@ -18,8 +18,7 @@ typedef struct linked_list {
 void my_lnk_add(lnklst_t *list, void *data);
 int my_lnk_remove(lnklst_t **list, void *data);
 lnklst_t *my_lnk_new(void *data);
-lnklst_t *lnk_next(lnklst_t *list);
-int lnk_has_next(lnklst_t *list);
+void my_lnk_swap(lnklst_t *list1, lnklst_t *list2);
 
 #endif
 

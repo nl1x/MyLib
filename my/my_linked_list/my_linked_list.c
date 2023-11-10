@@ -64,12 +64,10 @@ lnklst_t *my_lnk_new(void *data)
     return list;
 }
 
-int lnk_has_next(lnklst_t *list)
+void my_lnk_swap(lnklst_t *list1, lnklst_t *list2)
 {
-    return list->next != NULL;
-}
+    void *data1 = list1->data;
 
-lnklst_t *lnk_next(lnklst_t *list)
-{
-    return list->next;
+    list1->data = list2->data;
+    list2->data = data1;
 }

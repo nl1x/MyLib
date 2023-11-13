@@ -20,6 +20,15 @@ static char get_char(int rest)
     return c;
 }
 
+static char *my_calloc(int str_length)
+{
+    char *str = malloc(sizeof(char) * (str_length + 1));
+
+    for (int i = 0; i < str_length; i++)
+        str[i] = '\0';
+    return str;
+}
+
 static char *remalloc(char *str)
 {
     int str_length = my_strlen(str);

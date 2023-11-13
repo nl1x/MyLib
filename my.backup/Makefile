@@ -23,7 +23,6 @@ LIB = $(LIB_NAME).a
 LIB_DEST = ../$(LIB)
 
 LIB_SRC  = $(LIB_FOLDER)/my_str_isprintable.c
-LIB_SRC += $(LIB_FOLDER)/my_strclone.c
 LIB_SRC += $(LIB_FOLDER)/my_showstr.c
 LIB_SRC += $(LIB_FOLDER)/my_str_isalpha.c
 LIB_SRC += $(LIB_FOLDER)/my_str_islower.c
@@ -102,8 +101,6 @@ LIB_SRC += $(MYLIB_FOLDER)/my_get_base.c
 LIB_SRC += $(MYLIB_FOLDER)/my_islib.c
 LIB_SRC += $(MYLIB_FOLDER)/my_mathlib.c
 LIB_SRC += $(MYLIB_FOLDER)/utils.c
-LIB_SRC += $(MYLIB_FOLDER)/my_calloc.c
-LIB_SRC += $(MYLIB_FOLDER)/my_strcat_adv.c
 LIB_SRC += $(MY_LNKLST_FOLDER)/my_linked_list.c
 
 

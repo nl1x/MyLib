@@ -3,7 +3,6 @@
 ** C-POOL
 ** File description:
 ** my_strlowcase.c
-** Author: nathan.jeannot@epitech.eu
 */
 
 char *my_strlowcase(char *str)

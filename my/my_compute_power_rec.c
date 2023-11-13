@@ -3,7 +3,6 @@
 ** C-POOL
 ** File description:
 ** my_compute_power_rec.c
-** Author: nathan.jeannot@epitech.eu
 */
 
 long int my_compute_power_rec(int n, int p)

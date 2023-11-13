@@ -3,7 +3,6 @@
 ** C-POOL
 ** File description:
 ** my_str_isalpha.c
-** Author: nathan.jeannot@epitech.eu
 */
 
 #include "my.h"

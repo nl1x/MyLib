@@ -3,7 +3,6 @@
 ** myprintf
 ** File description:
 ** parser_length_modifier.c
-** Author: nathan.jeannot@epitech.eu
 */
 
 #include <stdlib.h>

@@ -3,7 +3,6 @@
 ** myprintf
 ** File description:
 ** my_put_double.c
-** Author: nathan.jeannot@epitech.eu
 */
 
 #include "my.h"

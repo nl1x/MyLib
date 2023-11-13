@@ -3,7 +3,6 @@
 ** C-POOL
 ** File description:
 ** my_put_nbr.c
-** Author: nathan.jeannot@epitech.eu
 */
 
 #include "my.h"

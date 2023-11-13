@@ -3,7 +3,6 @@
 ** C-POOL
 ** File description:
 ** my_strncmp.c
-** Author: nathan.jeannot@epitech.eu
 */
 
 static int find_first_diffn(char const *s1, char const *s2, int n)

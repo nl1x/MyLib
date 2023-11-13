@@ -3,7 +3,6 @@
 ** C-POOL
 ** File description:
 ** is_lib.c
-** Author: nathan.jeannot@epitech.eu
 */
 
 #include "../my.h"

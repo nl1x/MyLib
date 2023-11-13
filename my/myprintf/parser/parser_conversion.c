@@ -3,7 +3,6 @@
 ** myprintf
 ** File description:
 ** parser_conversion.c
-** Author: nathan.jeannot@epitech.eu
 */
 
 #include <stdlib.h>

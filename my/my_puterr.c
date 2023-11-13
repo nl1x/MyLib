@@ -4,7 +4,6 @@
 ** File description:
 ** my_puterr.c
 ** Author: nathan.jeannot@epitech.eu
-** Author: nathan.jeannot@epitech.eu
 */
 
 #include <unistd.h>

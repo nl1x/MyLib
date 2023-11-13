@@ -3,7 +3,6 @@
 ** myprintf
 ** File description:
 ** myprintf.c
-** Author: nathan.jeannot@epitech.eu
 */
 
 #include <stdio.h>

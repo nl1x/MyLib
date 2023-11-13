@@ -3,7 +3,6 @@
 ** myprintf
 ** File description:
 ** parser_width.c
-** Author: nathan.jeannot@epitech.eu
 */
 
 #include "../my_parser.h"

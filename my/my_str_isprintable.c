@@ -3,7 +3,6 @@
 ** C-POOL
 ** File description:
 ** my_str_isprintable.c
-** Author: nathan.jeannot@epitech.eu
 */
 
 #include "my.h"

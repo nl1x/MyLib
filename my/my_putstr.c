@@ -3,7 +3,6 @@
 ** C-POOL
 ** File description:
 ** my_putstr.c
-** Author: nathan.jeannot@epitech.eu
 */
 
 #include <unistd.h>

@@ -3,7 +3,6 @@
 ** handle_hexa
 ** File description:
 ** :wq
-** Author: nathan.jeannot@epitech.eu
 */
 
 #include "../../../my.h"

@@ -3,7 +3,6 @@
 ** my parser
 ** File description:
 ** my parser struct + prototypes
-** Author: nathan.jeannot@epitech.eu
 */
 
 #include <stdarg.h>

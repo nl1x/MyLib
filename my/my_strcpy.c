@@ -3,7 +3,6 @@
 ** C-POOL
 ** File description:
 ** my_strcpy.c
-** Author: nathan.jeannot@epitech.eu
 */
 
 char *my_strcpy(char *dest, char const *src)

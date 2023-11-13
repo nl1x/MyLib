@@ -3,6 +3,7 @@
 ** C-POOL
 ** File description:
 ** my_str_to_word_array.c
+** Author: nathan.jeannot@epitech.eu
 */
 
 #include "my.h"

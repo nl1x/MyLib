@@ -3,6 +3,7 @@
 ** C-POOL
 ** File description:
 ** is_lib.c
+** Author: nathan.jeannot@epitech.eu
 */
 
 void char_to_uppercase(char *c)

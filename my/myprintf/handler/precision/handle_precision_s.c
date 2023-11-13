@@ -3,6 +3,7 @@
 ** myprintf
 ** File description:
 ** handle_precision_s.c
+** Author: nathan.jeannot@epitech.eu
 */
 
 #include "../../../my.h"

@@ -5,6 +5,7 @@
 ** my.h.c
 */
 
+
 #ifndef MY_LNKLST
     #define MY_LNKLST
 
@@ -15,21 +16,17 @@ typedef struct linked_list {
 } lnklst_t;
 
 void my_lnk_add(lnklst_t *list, void *data);
-lnklst_t *my_lnk_remove(lnklst_t **list, void *data);
+int my_lnk_remove(lnklst_t **list, void *data);
 lnklst_t *my_lnk_new(void *data);
-void my_lnk_swap(lnklst_t *list1, lnklst_t *list2);
-void my_lnk_sort(lnklst_t *list, int (*condition)(void *data, void *key));
+lnklst_t *lnk_next(lnklst_t *list);
+int lnk_has_next(lnklst_t *list);
 
 #endif
 
 #ifndef MY_LIB
     #define MY_LIB
-    #include <stdlib.h>
 
 int my_strstarts(char *str, char *start);
-char *my_strcat_adv(char *start, char *end);
-
-char *my_calloc(size_t size);
 
 int count_occurences(char *str, char *substr);
 char **split(char *str, char *separator);
@@ -66,7 +63,6 @@ long int my_compute_power_rec(int nb, int power);
 int my_compute_square_root(int nb);
 int my_is_prime(int nb);
 int my_find_prime_sup(int nb);
-char *my_strclone(char *str);
 char *my_strcpy(char *dest, char const *src);
 char *my_strncpy(char *dest, char const *src, int n);
 char *my_revstr(char *str);

@@ -3,6 +3,7 @@
 ** C-POOL
 ** File description:
 ** my_sort_int_array.c
+** Author: nathan.jeannot@epitech.eu
 */
 
 #include "./my.h"

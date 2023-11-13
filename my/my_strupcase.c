@@ -3,6 +3,7 @@
 ** C-POOL
 ** File description:
 ** my_strupcase.c
+** Author: nathan.jeannot@epitech.eu
 */
 
 char *my_strupcase(char *str)

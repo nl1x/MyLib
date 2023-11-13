@@ -3,6 +3,7 @@
 ** C-POOL
 ** File description:
 ** my_getnbr.c
+** Author: nathan.jeannot@epitech.eu
 */
 
 #include "my.h"

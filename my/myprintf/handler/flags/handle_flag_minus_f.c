@@ -3,6 +3,7 @@
 ** myprintf
 ** File description:
 ** handle_flag_minus_f.c
+** Author: nathan.jeannot@epitech.eu
 */
 
 #include "../../../my.h"

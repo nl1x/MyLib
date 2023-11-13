@@ -3,6 +3,7 @@
 ## C-POOL
 ## File description:
 ## Makefile.c
+## Author: nathan.jeannot@epitech.eu
 ##
 
 ## ---- LIB ----

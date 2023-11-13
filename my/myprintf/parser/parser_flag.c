@@ -3,6 +3,7 @@
 ** myprintf
 ** File description:
 ** parser_flag.c
+** Author: nathan.jeannot@epitech.eu
 */
 
 #include "../my_parser.h"

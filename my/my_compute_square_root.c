@@ -3,6 +3,7 @@
 ** C-POOL
 ** File description:
 ** my_compute_square_root.c
+** Author: nathan.jeannot@epitech.eu
 */
 
 int my_compute_square_root(int nb)

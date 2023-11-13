@@ -3,6 +3,7 @@
 ** myprintf
 ** File description:
 ** handle_width_str.c
+** Author: nathan.jeannot@epitech.eu
 */
 
 #include <stdlib.h>

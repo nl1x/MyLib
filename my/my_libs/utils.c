@@ -26,7 +26,7 @@ static char *retrieve_line(char *start, char *separator)
 {
     char *end = my_strstr(start, separator);
     long length = end != NULL ? end - start : my_strlen(start);
-    char *line = malloc(sizeof(char) * (length + 1));
+    char *line = my_calloc(sizeof(char) * (length + 1));
 
     for (int i = 0; i < length; i++) {
         line[i] = start[i];
@@ -43,7 +43,8 @@ char **split(char *str, char *separator)
     int separator_length = my_strlen(separator);
     int i = 0;
 
-    tab[occurences] = NULL;
+    for (int j = 0; j < occurences + 2; j++)
+        tab[j] = NULL;
     while (i < occurences + 1) {
         tab[i] = retrieve_line(line_start, separator);
         line_start = my_strstr(line_start, separator) + separator_length;

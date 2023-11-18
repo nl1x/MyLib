@@ -15,7 +15,8 @@ PRECISION_FOLDER = $(HANDLER_FOLDER)precision/
 WIDTH_FOLDER = $(HANDLER_FOLDER)/width/
 FLAG_FOLDER = $(HANDLER_FOLDER)/flags/
 MYLIB_FOLDER = my_libs/
-MY_LNKLST_FOLDER = my_linked_list
+MY_LNKLST_FOLDER = my_linked_list/
+MY_ALLOC_FOLDER = my_alloc/
 
 LIB_FOLDER = .
 LIB_NAME = libmy
@@ -41,10 +42,12 @@ LIB_SRC += $(LIB_FOLDER)/my_put_double.c
 LIB_SRC += $(LIB_FOLDER)/my_getnbr.c
 LIB_SRC += $(LIB_FOLDER)/my_swap.c
 LIB_SRC += $(LIB_FOLDER)/my_strcmp.c
+LIB_SRC += $(LIB_FOLDER)/my_strsub.c
 LIB_SRC += $(LIB_FOLDER)/my_strncat.c
 LIB_SRC += $(LIB_FOLDER)/my_strcapitalize.c
 LIB_SRC += $(LIB_FOLDER)/my_str_isnum.c
 LIB_SRC += $(LIB_FOLDER)/my_strlowcase.c
+LIB_SRC += $(LIB_FOLDER)/my_int_to_str.c
 LIB_SRC += $(LIB_FOLDER)/my_putstr.c
 LIB_SRC += $(LIB_FOLDER)/my_libs/my_charlib.c
 LIB_SRC += $(LIB_FOLDER)/my_libs/my_islib.c
@@ -102,9 +105,19 @@ LIB_SRC += $(MYLIB_FOLDER)/my_get_base.c
 LIB_SRC += $(MYLIB_FOLDER)/my_islib.c
 LIB_SRC += $(MYLIB_FOLDER)/my_mathlib.c
 LIB_SRC += $(MYLIB_FOLDER)/utils.c
-LIB_SRC += $(MYLIB_FOLDER)/my_calloc.c
 LIB_SRC += $(MYLIB_FOLDER)/my_strcat_adv.c
-LIB_SRC += $(MY_LNKLST_FOLDER)/my_linked_list.c
+LIB_SRC += $(MY_LNKLST_FOLDER)/my_lnk_add.c
+LIB_SRC += $(MY_LNKLST_FOLDER)/my_lnk_destroy.c
+LIB_SRC += $(MY_LNKLST_FOLDER)/my_lnk_get_by_data.c
+LIB_SRC += $(MY_LNKLST_FOLDER)/my_lnk_get_end.c
+LIB_SRC += $(MY_LNKLST_FOLDER)/my_lnk_new.c
+LIB_SRC += $(MY_LNKLST_FOLDER)/my_lnk_remove.c
+LIB_SRC += $(MY_LNKLST_FOLDER)/my_lnk_reverse.c
+LIB_SRC += $(MY_LNKLST_FOLDER)/my_lnk_sort.c
+LIB_SRC += $(MY_LNKLST_FOLDER)/my_lnk_swap.c
+LIB_SRC += $(MY_ALLOC_FOLDER)/my_calloc.c
+LIB_SRC += $(MY_ALLOC_FOLDER)/my_realloc.c
+LIB_SRC += $(MY_ALLOC_FOLDER)/my_read.c
 
 
 LIB_OBJ	= $(LIB_SRC:.c=.o)

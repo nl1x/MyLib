@@ -14,11 +14,25 @@ typedef struct linked_list {
     struct linked_list *prev;
 } lnklst_t;
 
+lnklst_t *my_lnk_get_end(lnklst_t *list);
+lnklst_t *my_lnk_get_by_data(lnklst_t *list, void *data);
 void my_lnk_add(lnklst_t *list, void *data);
 lnklst_t *my_lnk_remove(lnklst_t **list, void *data);
 lnklst_t *my_lnk_new(void *data);
 void my_lnk_swap(lnklst_t *list1, lnklst_t *list2);
 void my_lnk_sort(lnklst_t *list, int (*condition)(void *data, void *key));
+void my_lnk_reverse(lnklst_t **list);
+void my_lnk_destroy(lnklst_t *list, void (*data_destroyer)(void *data));
+
+#endif
+
+#ifndef MY_ALLOC
+    #define MY_ALLOC
+    #include <stdlib.h>
+
+char *my_calloc(size_t size);
+char *my_readlink(char *file);
+char *my_realloc(char *buf, size_t additional_size);
 
 #endif
 
@@ -27,9 +41,7 @@ void my_lnk_sort(lnklst_t *list, int (*condition)(void *data, void *key));
     #include <stdlib.h>
 
 int my_strstarts(char *str, char *start);
-char *my_strcat_adv(char *start, char *end);
-
-char *my_calloc(size_t size);
+char *my_int_to_str(long long nb);
 
 int count_occurences(char *str, char *substr);
 char **split(char *str, char *separator);
@@ -66,6 +78,7 @@ long int my_compute_power_rec(int nb, int power);
 int my_compute_square_root(int nb);
 int my_is_prime(int nb);
 int my_find_prime_sup(int nb);
+char *my_strsub(char const *str, int start, int end);
 char *my_strclone(char *str);
 char *my_strcpy(char *dest, char const *src);
 char *my_strncpy(char *dest, char const *src, int n);
@@ -84,6 +97,7 @@ int my_str_isprintable(char const *str);
 int my_showstr(char const *str);
 int my_showmem(char const *str, int size);
 char *my_strcat(char *dest, char const *src);
+char *my_strcat_adv(char *start, char *end);
 char *my_strncat(char *dest, char const *src, int nb);
 char **my_str_to_word_array(char const *str);
 int my_show_word_array(char const **tab);

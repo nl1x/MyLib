@@ -108,6 +108,7 @@ LIB_SRC += $(MYLIB_FOLDER)/utils.c
 LIB_SRC += $(MYLIB_FOLDER)/my_strcat_adv.c
 LIB_SRC += $(MY_LNKLST_FOLDER)/my_lnk_add.c
 LIB_SRC += $(MY_LNKLST_FOLDER)/my_lnk_destroy.c
+LIB_SRC += $(MY_LNKLST_FOLDER)/my_lnk_get.c
 LIB_SRC += $(MY_LNKLST_FOLDER)/my_lnk_get_by_data.c
 LIB_SRC += $(MY_LNKLST_FOLDER)/my_lnk_get_end.c
 LIB_SRC += $(MY_LNKLST_FOLDER)/my_lnk_new.c
